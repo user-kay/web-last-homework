@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "幼圆";
+}
+
+body {
+    background-color: #f3f4f5;
+}
+
+a {
+    text-decoration: none;
+  
+}
+
+li {
+    list-style: none;
+}
+
+.top {
+	width: 100%;
+	height: 10px;
+	background-color: orange;
+}
+ 
+input{
+    outline: none;
+}
+
+.search {
+    margin-left: 70px; 
+    width: 1400px;
+    height: 100px;
+    /* background-color: blue; */
+}
+
+
+.webname {
+    float:left;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    font-family: "幼圆";
+    font-weight: 700;
+    font-size: larger;
+    text-align: center;
+    color: orange;
+    /* background-color: yellow; */
+    animation: changeshadow 1s ease-in infinite;
+    -webkit-animation: changeshadow 1s linear infinite;
+    -moz-animation: changeshadow 1s linear infinite;
+    -ms-animation: changeshadow 1s linear infinite;
+    -o-animation: changeshadow 1s linear infinite;
+}
+
+@keyframes changeshadow {
+    0% {
+        text-shadow: 0 0 4px orange;
+    }
+
+    50% {
+        text-shadow: 0 0 40px orange;
+    }
+
+    100% {
+        text-shadow: 0 0 4px orange;
+    }
+}
+
+@-webkit-keyframes changeshadow {
+    0% {
+        text-shadow: 0 0 4px orange;
+    }
+
+    50% {
+        text-shadow: 0 0 40px orange;
+    }
+
+    100% {
+        text-shadow: 0 0 4px orange;
+    }
+}
+
+@-moz-keyframes changeshadow {
+    0% {
+        text-shadow: 0 0 4px orange;
+    }
+
+    50% {
+        text-shadow: 0 0 40px orange;
+    }
+
+    100% {
+        text-shadow: 0 0 4px orange;
+    }
+}
+ 
+
+@-o-keyframes changeshadow {
+    0% {
+        text-shadow: 0 0 4px orange;
+    }
+
+    50% {
+        text-shadow: 0 0 40px orange;
+    }
+
+    100% {
+        text-shadow: 0 0 4px orange; 
+    }
+}
+
+.searching {
+    float:right;
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 400px;
+    height: 50px;
+    /* background-color: green; */
+}
+
+.input {
+    float: left;
+    margin-left: 40px;
+    width: 180px;
+    height: 40px;
+}
+
+.changing {
+    float: left;
+    display: block;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-weight: bold;
+    font-family: "幼圆";
+    color: white;
+    background-color: orange;
+
+}
+
+.navigator {
+    margin-top: 10px;
+    margin-bottom: 30px;
+     margin-left: 120px; 
+     width: 80%;
+     height: 60px;
+     line-height: 50px;
+     /* background-color: orange; */
+}
+
+.navigator ul li {
+    float: left;
+    font-family: "幼圆";
+    width: 150px;
+    height: 60px;
+    color:orange;
+    /* border-radius: 10%; */
+    background-color: white;
+    text-align: center;
+    margin-left: 7px;
+    border-radius: 10%;
+    font-weight: bold;
+    box-shadow: 3px 2px 1px rgba(0,0,0,.3);
+    line-height: 60px;
+    margin-right: 85px;
+}
+
+
+.navigator ul li a {
+    color: orange;
+}
+
+.navigator ul .first {
+    background-color: orange;
+    color: white;
+}
+
+.navigator ul li:hover{
+    background-color: orange;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+/* 导航栏的结束 */
+/* 轮播图的开始 */
+.lunbo {
+    margin-top: 5px;
+    margin-left: 120px;
+    width: 80%;
+    height: 600px;
+    background-color: yellow;
+}
+
+.lunbo img{
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 0px;
+
+}
+
+.img1{
+    display: block;
+}
+
+.img2{
+    display: none;
+}
+
+.img3{
+    display: none;
+} 
+
+/* 轮播图的结束 */
+/* 介绍部分的开始 */
+.school {
+    margin-top: 15px;
+    margin-left: 120px;
+    width: 1200px;
+}
+
+.schooltitle {
+    border-bottom: 1px solid grey;
+}
+
+/* 介绍部分的结束 */
+/* 结语部分的开始 */
+.ending {
+    width:100%;
+    height: 200px;
+    background-color: orange;
+}
+
+.word {
+    float: left;
+    margin-top:80px;
+    margin-left:120px;
+    color: white;
+}
+
+.word p {
+    margin-bottom: 10px;
+}
+/* 结语部分的结束 */

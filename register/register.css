@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "幼圆";
+    font-size: 18px;
+}
+
+body {
+    background-color: #f3f5f7;
+} 
+
+tr {
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.picture {
+    float: left;
+    height: 750px;
+    width: 900px;
+    background-color: blue;
+}
+
+.picture img {
+    width: 100%;
+    height: 100%;
+}
+
+.register {
+    float: left;
+    margin-top: 180px;
+    margin-left: 100px;
+}
+
+
+#reg {
+    background-color: aqua;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0,.3);
+}
+
+#username {
+    background-image: url(../images/user.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 5px;
+    height: 35px;
+    padding-left: 35px;
+    border: 1px solid grey;
+    /* outline: none; */
+}
+
+#username:hover {
+    border-color: aqua;
+}
+
+#password,#repassword {
+    background-image: url(../images/password.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 5px;
+    height: 35px;
+    padding-left: 35px;
+    border: 1px solid grey;
+}
+
+#password:hover {
+    border-color: aqua;
+}
+#password:hover {
+    border-color: aqua;
+}

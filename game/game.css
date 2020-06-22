@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "幼圆";
+}
+
+body {
+    background-color: #f3f4f5;
+}
+
+a {
+    text-decoration: none;
+  
+}
+
+li {
+    list-style: none;
+}
+
+.top {
+	width: 100%;
+	height: 10px;
+	background-color: red;
+}
+ 
+input{
+    outline: none;
+}
+ 
+.search {
+    margin-left: 70px; 
+    width: 1400px;
+    height: 100px;
+    /* background-color: blue; */
+}
+
+
+.webname {
+    float:left;
+
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    font-family: "幼圆";
+    font-weight: 700;
+    font-size: larger;
+    text-align: center;
+    color: red;
+    /* background-color: yellow; */
+    animation: changeshadow 1s ease-in infinite;
+    -webkit-animation: changeshadow 1s linear infinite;
+    -moz-animation: changeshadow 1s linear infinite;
+    -ms-animation: changeshadow 1s linear infinite;
+    -o-animation: changeshadow 1s linear infinite;
+}
+
+@keyframes changeshadow {
+    0% {
+        text-shadow: 0 0 4px orange;
+    }
+
+    50% {
+        text-shadow: 0 0 40px orange;
+    }
+
+    100% {
+        text-shadow: 0 0 4px orange;
+    }
+}
+
+@-webkit-keyframes changeshadow {
+    0% {
+        text-shadow: 0 0 4px orange;
+    }
+
+    50% {
+        text-shadow: 0 0 40px orange;
+    }
+
+    100% {
+        text-shadow: 0 0 4px orange;
+    }
+}
+
+@-moz-keyframes changeshadow {
+    0% {
+        text-shadow: 0 0 4px orange;
+    }
+
+    50% {
+        text-shadow: 0 0 40px orange;
+    }
+
+    100% {
+        text-shadow: 0 0 4px orange;
+    }
+}
+ 
+
+@-o-keyframes changeshadow {
+    0% {
+        text-shadow: 0 0 4px orange;
+    }
+
+    50% {
+        text-shadow: 0 0 40px orange;
+    }
+
+    100% {
+        text-shadow: 0 0 4px orange;
+    }
+}
+
+.searching {
+    float:right;
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 400px;
+    height: 50px;
+    /* background-color: green; */
+}
+
+.input {
+    float: left;
+    margin-left: 40px;
+    width: 180px;
+    height: 40px;
+}
+
+.changing {
+    float: left;
+    display: block;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-weight: bold;
+    font-family: "幼圆";
+    color: white;
+    background-color: #fa5d19;
+
+}
+
+.navigator {
+    margin-top: 10px;
+    margin-bottom: 30px;
+     margin-left: 120px; 
+     width: 80%;
+     height: 60px;
+     line-height: 50px;
+     /* background-color: red; */
+}
+
+.navigator ul li {
+
+    float: left;
+    margin-left: 7px;
+    margin-right: 85px;
+    font-family: "幼圆";
+    width: 150px;
+    height: 60px;
+    color:#fa5d19;
+    /* border-radius: 10%; */
+    background-color: white;
+    text-align: center;
+    border-radius: 10%;
+    font-weight: bold;
+    line-height: 60px;
+    box-shadow: 3px 2px 1px rgba(0,0,0,.3);
+}
+
+
+
+.navigator ul .first {
+    background-color: #fa5d19;
+    color: white;
+}
+
+.navigator ul li:hover{
+    background-color: grey;
+    color: white;
+}
+
+/* 导航栏的结束 */
+/* 游戏区域的开始 */
+.start {
+    margin-top: 5px;
+    margin-left: 120px;
+    width: 1200px;
+    height: 400px;
+    background-color: grey;
+}
+
+.question {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: yellow;
+}
+
+.choice {
+    margin-top: 10px;
+    margin-left:20px;
+    margin-right: 10px;
+    width: 200px;
+    height: 250px;
+    border-radius: 10%;
+}
+
+.places {
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 1200px;
+    height: 400px;
+    background-color: grey;
+}
+
+/* 游戏区域的结束 */
+/* 结语部分的开始 */
+.ending {
+    width:100%;
+    height: 200px;
+    background-color: red;
+}
+
+.word {
+    float: left;
+    margin-top:80px;
+    margin-left:120px;
+    color: white;
+}
+
+.word p {
+    margin-bottom: 10px;
+}
+/* 结语部分的结束 */

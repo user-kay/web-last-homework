@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小游戏</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js"></script>
+</head>
+<body>
+    <!-- 最开始的顶部的横栏的开始 -->
+	<div class="top">
+		
+	</div>
+	<!-- 顶部横栏的结束 -->
+	<!-- 搜索框的开始 -->
+	<div class="search">
+		<div class="webname">
+			妖刀黄烦烦
+		</div>
+		<div class="searching">
+			<input type="text" class="input">
+			<a href="../index/index.html" class="changing">搜索</a>
+		</div>
+		
+	</div>
+	<!-- 搜索框的结束 -->
+	<!-- 导航栏的开始 -->
+     <div class="navigator">
+		<ul>
+			<a href="../index/index.html"><li>关于华师</li></a>
+			<a href="../nanhai/nanhai.html"><li>关于南海</li></a>
+            <a href="../software/software.html"><li>关于软件学院</li></a>
+			<a href="../blog/blog.html"><li>关于blog</li></a>
+			<li  class="first">选学校小游戏</li>
+		</ul>
+	 </div>
+     <!-- 导航栏的结束 -->
+     <!-- 游戏区域的开始 -->
+     <div class="start">
+         <div class="question">请在下面的学校中选择一所自己想去的</div>
+      
+        <img src="../images/school2.jpg" draggable="true" class="choice" ondragstart="dragstart2()">
+        <img src="../images/school3.jpg" draggable="true" class="choice"  ondragstart="dragstart2()">
+        <img src="../images/school1.jpg" draggable="true" ondragstart="dragstart(this)" class="choice">
+        <img src="../images/school4.jpg" draggable="true" class="choice"  ondragstart="dragstart2()">
+        <img src="../images/school5.jpg" draggable="true" class="choice"  ondragstart="dragstart2()">
+     </div>
+     <div class="places" ondragenter="enter()" ondragover="enter()" ondrop="getObj(this)">
+        <div class="question">请把自己想去的学校放在这个框框下面</div>
+
+     </div>
+     <!-- 游戏区域的结束 -->
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <div class="ending">
+        <div class="word">
+            <p>关于华南师范大学|关于南海</p>
+            <p>关于软件学院|关于妖刀黄烦烦</p>
+        </div>
+        <div>
+
+        </div>
+      </div>
+</body>
+</html>

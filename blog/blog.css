@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "幼圆";
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #f5f6f7;
+}
+
+.top {
+	width: 100%;
+	height: 10px;
+	background-color: hotpink;
+}
+ 
+input{
+    outline: none;
+}
+
+.search {
+    margin-left: 70px; 
+    width: 1400px;
+    height: 100px;
+    /* background-color: blue; */
+}
+
+
+.webname {
+    float:left;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    font-family: "幼圆";
+    font-weight: 700;
+    font-size: larger;
+    text-align: center;
+    color: hotpink;
+    /* background-color: yellow; */
+    animation: changeshadow 1s ease-in infinite;
+    -webkit-animation: changeshadow 1s linear infinite;
+    -moz-animation: changeshadow 1s linear infinite;
+    -ms-animation: changeshadow 1s linear infinite;
+    -o-animation: changeshadow 1s linear infinite;
+} 
+
+/* 闪烁特效的开始 */
+@keyframes changeshadow {
+    0% {
+        text-shadow: 0 0 4px hotpink;
+    }
+
+    50% {
+        text-shadow: 0 0 40px hotpink;
+    }
+
+    100% {
+        text-shadow: 0 0 4px hotpink;
+    }
+}
+
+@-webkit-keyframes changeshadow {
+    0% {
+        text-shadow: 0 0 4px hotpink;
+    }
+
+    50% {
+        text-shadow: 0 0 40px hotpink;
+    }
+
+    100% {
+        text-shadow: 0 0 4px hotpink;
+    }
+}
+
+@-moz-keyframes changeshadow {
+    0% {
+        text-shadow: 0 0 4px hotpink;
+    }
+
+    50% {
+        text-shadow: 0 0 40px hotpink;
+    }
+
+    100% {
+        text-shadow: 0 0 4px hotpink;
+    }
+}
+
+
+@-o-keyframes changeshadow {
+    0% {
+        text-shadow: 0 0 4px hotpink;
+    }
+
+    50% {
+        text-shadow: 0 0 40px hotpink;
+    }
+
+    100% {
+        text-shadow: 0 0 4px hotpink;
+    }
+}
+/* 闪烁特效的结束 */
+
+.searching {
+    float:right;
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 400px;
+    height: 50px;
+    /* background-color: green; */
+}
+
+.input {
+    float: left;
+    margin-left: 40px;
+    width: 180px;
+    height: 40px;
+}
+
+.changing {
+    float: left;
+    display: block;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-weight: bold;
+    font-family: "幼圆";
+    color: white;
+    background-color: hotpink;
+
+}
+
+.navigator {
+    margin-top: 10px;
+    margin-bottom: 30px;
+     margin-left: 120px; 
+     width: 80%;
+     height: 60px;
+     line-height: 50px;
+     /* background-color: hotpink; */
+}
+
+.navigator ul li {
+    float: left;
+    margin-right: 85px;
+    margin-left: 7px;
+    font-family: "幼圆";
+    width: 150px;
+    height: 60px;
+    color:hotpink;
+    /* border-radius: 10%; */
+    background-color: white;
+    text-align: center;
+    border-radius: 10%;
+    font-weight: bold;
+    line-height: 60px;
+    box-shadow: 3px 2px 1px rgba(0,0,0,.3);
+}
+
+
+.navigator ul .first {
+    background-color: hotpink;
+    color: white;
+}
+
+.navigator ul li:hover{
+    background-color: hotpink;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+/* 导航栏部分的结束 */
+/* blog处界面的开始 */
+.blog {
+    width: 80%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 120px;
+    /* background-color: pink; */
+}
+
+.blog ul li { 
+    margin-top: 25px;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    background-image: url(../images/bg1.jpg);
+}
+
+.avatar {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: yellow;
+}
+
+.title a {
+    color:white;
+}
+
+.title p {
+    margin-top: 5px;
+}
+
+/* blog处界面的结束 */
+
+/* 结语部分的开始 */
+.ending {
+    width:100%;
+    height: 200px;
+    background-color: hotpink;
+}
+
+.word {
+    float: left;
+    margin-top:80px;
+    margin-left:120px;
+    color: white;
+}
+
+.word p {
+    margin-bottom: 10px;
+}
+/* 结语部分的结束 */
