@@ -166,7 +166,8 @@ input{
     /* border-radius: 10%; */
     background-color: white;
     text-align: center;
-    border-radius: 10%;
+    /* border-radius: 10%; */
+    border-radius: 10px;
     font-weight: bold;
     line-height: 60px;
     box-shadow: 3px 2px 1px rgba(0,0,0,.3);

@@ -158,7 +158,8 @@ input{
     float: left;
     margin-left: 7px;
     margin-right: 85px;
-    border-radius: 10%;
+    /* border-radius: 10%; */
+    border-radius: 10px;
     font-family: "幼圆";
     width: 150px;
     height: 60px;

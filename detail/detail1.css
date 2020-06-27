@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img{
+    width: 400px;
+   height:300px;
+   margin-top:50px;
+}
+
+.div{
+  text-align: center;
+
+}
+a{
+  font-family:幼圆;
+   font-size:60px;
+  text-shadow: 1px 1px yellow;
+   opacity:0;/* 透明度 1就完全不透明 0就透明 */
+}
+html:hover .img{
+  animation-name:imag;
+  animation-delay: 500ms;
+  animation-duration:1s;
+  animation-fill-mode: forwards;  
+}
+
+@keyframes imag{
+ to{
+  
+    margin-top:100px; 
+    width:450px;
+    height:400px;
+ }
+}
+
+html:hover a{
+ transition-delay: 150ms;
+ transition-duration:500ms; 
+ font-family:幼圆;
+ font-size:80px;
+ text-shadow: 1px 1px yellow;
+ opacity: 1;
+}
+
+.title{
+   background-repeat: no-repeat;
+   background-image: url(../images/bg3.jfif);
+   background-size: cover;
+}
